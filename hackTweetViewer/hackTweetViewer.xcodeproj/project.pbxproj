@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0CDF56214BBFDEB00FEF3A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CDF56114BBFDEB00FEF3A5 /* UIKit.framework */; };
+		C0CDF56414BBFDEB00FEF3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CDF56314BBFDEB00FEF3A5 /* Foundation.framework */; };
+		C0CDF56614BBFDEB00FEF3A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CDF56514BBFDEB00FEF3A5 /* CoreGraphics.framework */; };
+		C0CDF56C14BBFDEB00FEF3A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0CDF56A14BBFDEB00FEF3A5 /* InfoPlist.strings */; };
+		C0CDF56E14BBFDEB00FEF3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CDF56D14BBFDEB00FEF3A5 /* main.m */; };
+		C0CDF57214BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CDF57114BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.m */; };
+		C0CDF57514BBFDEB00FEF3A5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CDF57314BBFDEB00FEF3A5 /* MainStoryboard.storyboard */; };
+		C0CDF57814BBFDEB00FEF3A5 /* hackTweetViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CDF57714BBFDEB00FEF3A5 /* hackTweetViewerViewController.m */; };
+		C0CDF57F14BBFE9900FEF3A5 /* instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0CDF57E14BBFE9900FEF3A5 /* instructions.txt */; };
+		C0CDF58614BBFFF600FEF3A5 /* hackTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CDF58514BBFFF600FEF3A5 /* hackTweet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0CDF55D14BBFDEB00FEF3A5 /* hackTweetViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackTweetViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CDF56114BBFDEB00FEF3A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0CDF56314BBFDEB00FEF3A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0CDF56514BBFDEB00FEF3A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0CDF56914BBFDEB00FEF3A5 /* hackTweetViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hackTweetViewer-Info.plist"; sourceTree = "<group>"; };
+		C0CDF56B14BBFDEB00FEF3A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0CDF56D14BBFDEB00FEF3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0CDF56F14BBFDEB00FEF3A5 /* hackTweetViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hackTweetViewer-Prefix.pch"; sourceTree = "<group>"; };
+		C0CDF57014BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hackTweetViewerAppDelegate.h; sourceTree = "<group>"; };
+		C0CDF57114BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackTweetViewerAppDelegate.m; sourceTree = "<group>"; };
+		C0CDF57414BBFDEB00FEF3A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C0CDF57614BBFDEB00FEF3A5 /* hackTweetViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hackTweetViewerViewController.h; sourceTree = "<group>"; };
+		C0CDF57714BBFDEB00FEF3A5 /* hackTweetViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackTweetViewerViewController.m; sourceTree = "<group>"; };
+		C0CDF57E14BBFE9900FEF3A5 /* instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = instructions.txt; sourceTree = "<group>"; };
+		C0CDF58414BBFFF600FEF3A5 /* hackTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hackTweet.h; sourceTree = "<group>"; };
+		C0CDF58514BBFFF600FEF3A5 /* hackTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hackTweet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0CDF55A14BBFDEB00FEF3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CDF56214BBFDEB00FEF3A5 /* UIKit.framework in Frameworks */,
+				C0CDF56414BBFDEB00FEF3A5 /* Foundation.framework in Frameworks */,
+				C0CDF56614BBFDEB00FEF3A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0CDF55214BBFDEA00FEF3A5 = {
+			isa = PBXGroup;
+			children = (
+				C0CDF56714BBFDEB00FEF3A5 /* hackTweetViewer */,
+				C0CDF56014BBFDEB00FEF3A5 /* Frameworks */,
+				C0CDF55E14BBFDEB00FEF3A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0CDF55E14BBFDEB00FEF3A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CDF55D14BBFDEB00FEF3A5 /* hackTweetViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CDF56014BBFDEB00FEF3A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0CDF56114BBFDEB00FEF3A5 /* UIKit.framework */,
+				C0CDF56314BBFDEB00FEF3A5 /* Foundation.framework */,
+				C0CDF56514BBFDEB00FEF3A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0CDF56714BBFDEB00FEF3A5 /* hackTweetViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C0CDF57014BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.h */,
+				C0CDF57114BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.m */,
+				C0CDF57314BBFDEB00FEF3A5 /* MainStoryboard.storyboard */,
+				C0CDF57614BBFDEB00FEF3A5 /* hackTweetViewerViewController.h */,
+				C0CDF57714BBFDEB00FEF3A5 /* hackTweetViewerViewController.m */,
+				C0CDF56814BBFDEB00FEF3A5 /* Supporting Files */,
+				C0CDF57E14BBFE9900FEF3A5 /* instructions.txt */,
+				C0CDF58414BBFFF600FEF3A5 /* hackTweet.h */,
+				C0CDF58514BBFFF600FEF3A5 /* hackTweet.m */,
+			);
+			path = hackTweetViewer;
+			sourceTree = "<group>";
+		};
+		C0CDF56814BBFDEB00FEF3A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0CDF56914BBFDEB00FEF3A5 /* hackTweetViewer-Info.plist */,
+				C0CDF56A14BBFDEB00FEF3A5 /* InfoPlist.strings */,
+				C0CDF56D14BBFDEB00FEF3A5 /* main.m */,
+				C0CDF56F14BBFDEB00FEF3A5 /* hackTweetViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0CDF55C14BBFDEB00FEF3A5 /* hackTweetViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CDF57B14BBFDEB00FEF3A5 /* Build configuration list for PBXNativeTarget "hackTweetViewer" */;
+			buildPhases = (
+				C0CDF55914BBFDEB00FEF3A5 /* Sources */,
+				C0CDF55A14BBFDEB00FEF3A5 /* Frameworks */,
+				C0CDF55B14BBFDEB00FEF3A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackTweetViewer;
+			productName = hackTweetViewer;
+			productReference = C0CDF55D14BBFDEB00FEF3A5 /* hackTweetViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0CDF55414BBFDEA00FEF3A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Yale University";
+			};
+			buildConfigurationList = C0CDF55714BBFDEA00FEF3A5 /* Build configuration list for PBXProject "hackTweetViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0CDF55214BBFDEA00FEF3A5;
+			productRefGroup = C0CDF55E14BBFDEB00FEF3A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0CDF55C14BBFDEB00FEF3A5 /* hackTweetViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0CDF55B14BBFDEB00FEF3A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CDF56C14BBFDEB00FEF3A5 /* InfoPlist.strings in Resources */,
+				C0CDF57514BBFDEB00FEF3A5 /* MainStoryboard.storyboard in Resources */,
+				C0CDF57F14BBFE9900FEF3A5 /* instructions.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CDF55914BBFDEB00FEF3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CDF56E14BBFDEB00FEF3A5 /* main.m in Sources */,
+				C0CDF57214BBFDEB00FEF3A5 /* hackTweetViewerAppDelegate.m in Sources */,
+				C0CDF57814BBFDEB00FEF3A5 /* hackTweetViewerViewController.m in Sources */,
+				C0CDF58614BBFFF600FEF3A5 /* hackTweet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0CDF56A14BBFDEB00FEF3A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CDF56B14BBFDEB00FEF3A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0CDF57314BBFDEB00FEF3A5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CDF57414BBFDEB00FEF3A5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0CDF57914BBFDEB00FEF3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0CDF57A14BBFDEB00FEF3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0CDF57C14BBFDEB00FEF3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hackTweetViewer/hackTweetViewer-Prefix.pch";
+				INFOPLIST_FILE = "hackTweetViewer/hackTweetViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0CDF57D14BBFDEB00FEF3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hackTweetViewer/hackTweetViewer-Prefix.pch";
+				INFOPLIST_FILE = "hackTweetViewer/hackTweetViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0CDF55714BBFDEA00FEF3A5 /* Build configuration list for PBXProject "hackTweetViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CDF57914BBFDEB00FEF3A5 /* Debug */,
+				C0CDF57A14BBFDEB00FEF3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CDF57B14BBFDEB00FEF3A5 /* Build configuration list for PBXNativeTarget "hackTweetViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CDF57C14BBFDEB00FEF3A5 /* Debug */,
+				C0CDF57D14BBFDEB00FEF3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0CDF55414BBFDEA00FEF3A5 /* Project object */;
+}
