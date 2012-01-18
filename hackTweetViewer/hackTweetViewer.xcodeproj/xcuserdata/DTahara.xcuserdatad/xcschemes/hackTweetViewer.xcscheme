@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0CDF55C14BBFDEB00FEF3A5"
-               BuildableName = "hackTweetViewer.app"
-               BlueprintName = "hackTweetViewer"
-               ReferencedContainer = "container:hackTweetViewer.xcodeproj">
+               BlueprintIdentifier = "C0319BAD14C0747900BD4E35"
+               BuildableName = "HackTweetViewer.app"
+               BlueprintName = "HackTweetViewer"
+               ReferencedContainer = "container:HackTweetViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,10 +31,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0CDF55C14BBFDEB00FEF3A5"
-            BuildableName = "hackTweetViewer.app"
-            BlueprintName = "hackTweetViewer"
-            ReferencedContainer = "container:hackTweetViewer.xcodeproj">
+            BlueprintIdentifier = "C0319BAD14C0747900BD4E35"
+            BuildableName = "HackTweetViewer.app"
+            BlueprintName = "HackTweetViewer"
+            ReferencedContainer = "container:HackTweetViewer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -49,10 +49,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0CDF55C14BBFDEB00FEF3A5"
-            BuildableName = "hackTweetViewer.app"
-            BlueprintName = "hackTweetViewer"
-            ReferencedContainer = "container:hackTweetViewer.xcodeproj">
+            BlueprintIdentifier = "C0319BAD14C0747900BD4E35"
+            BuildableName = "HackTweetViewer.app"
+            BlueprintName = "HackTweetViewer"
+            ReferencedContainer = "container:HackTweetViewer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -67,10 +67,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0CDF55C14BBFDEB00FEF3A5"
-            BuildableName = "hackTweetViewer.app"
-            BlueprintName = "hackTweetViewer"
-            ReferencedContainer = "container:hackTweetViewer.xcodeproj">
+            BlueprintIdentifier = "C0319BAD14C0747900BD4E35"
+            BuildableName = "HackTweetViewer.app"
+            BlueprintName = "HackTweetViewer"
+            ReferencedContainer = "container:HackTweetViewer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,14 +1,14 @@
 //
-//  hackTweetViewerAppDelegate.h
-//  hackTweetViewer
+//  HackTweetViewerAppDelegate.h
+//  HackTweetViewer
 //
-//  Created by Daniel Tahara on 1/10/12.
+//  Created by Daniel Tahara on 1/13/12.
 //  Copyright (c) 2012 Yale University. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface hackTweetViewerAppDelegate : UIResponder <UIApplicationDelegate>
+@interface HackTweetViewerAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

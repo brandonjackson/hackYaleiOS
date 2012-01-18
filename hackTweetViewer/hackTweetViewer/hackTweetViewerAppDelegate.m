@@ -1,14 +1,14 @@
 //
-//  hackTweetViewerAppDelegate.m
-//  hackTweetViewer
+//  HackTweetViewerAppDelegate.m
+//  HackTweetViewer
 //
-//  Created by Daniel Tahara on 1/10/12.
+//  Created by Daniel Tahara on 1/13/12.
 //  Copyright (c) 2012 Yale University. All rights reserved.
 //
 
-#import "hackTweetViewerAppDelegate.h"
+#import "HackTweetViewerAppDelegate.h"
 
-@implementation hackTweetViewerAppDelegate
+@implementation HackTweetViewerAppDelegate
 
 @synthesize window = _window;
 

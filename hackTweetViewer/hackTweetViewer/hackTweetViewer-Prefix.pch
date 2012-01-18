@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'hackTweetViewer' target in the 'hackTweetViewer' project
+// Prefix header for all source files of the 'HackTweetViewer' target in the 'HackTweetViewer' project
 //
 
 #import <Availability.h>
