@@ -25,12 +25,4 @@
     return self;
 }
 
--(void)dealloc
-{
-    [user release];
-    [userIcon release];
-    [content release];
-    
-    [super dealloc];
-}
 @end

@@ -10,9 +10,9 @@
 
 @interface HackTweet : NSObject
 
-@property (nonatomic, retain) NSString *user;
-@property (nonatomic, retain) UIImage *userIcon;
-@property (nonatomic, retain) NSString *content;
+@property (nonatomic, strong) NSString *user;
+@property (nonatomic, strong) UIImage *userIcon;
+@property (nonatomic, strong) NSString *content;
 
 -(id)initWithUser:(NSString*)name userIcon:(UIImage*)icon content:(NSString*)message;
 

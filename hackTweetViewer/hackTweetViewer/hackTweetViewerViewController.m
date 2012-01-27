@@ -89,7 +89,7 @@
     UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if (!cell) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
     }
     
     int index = indexPath.row;
@@ -114,7 +114,7 @@
 {
     NSString *alertMessage = [NSString stringWithFormat:@"You selected cell at row %d", indexPath.row];
     
-    UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:alertMessage message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil] autorelease];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:alertMessage message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
     
     [alert show];
     
@@ -133,26 +133,26 @@
     
     
     //hard coded data
-    UIImage *bayImage = [[[UIImage alloc] initWithContentsOfFile:@"HackYaleBarLogo-02.png"] autorelease];
+    UIImage *bayImage = [[UIImage alloc] initWithContentsOfFile:@"HackYaleBarLogo-02.png"];
     
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
-    [tweetList addObject:[[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"] autorelease]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
+    [tweetList addObject:[[HackTweet alloc] initWithUser:@"Bay Gross" userIcon:bayImage content:@"#HackYale applications are live!"]];
 }
 
 @end
