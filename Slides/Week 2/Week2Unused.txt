@@ -1,0 +1,1 @@
+Primitives have object counterparts (e.g. integers - NSInteger)Messages to nilsending messages to nil pointers won’t necessarily cause your program to crash at runtime...but be careful, because it is difficult to debugNSZombieEnabled for EXC_BAD_ACCESS (Edit Scheme > Diagnostics > Enable...)

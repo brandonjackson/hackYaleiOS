@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'week2demoproject' target in the 'week2demoproject' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
