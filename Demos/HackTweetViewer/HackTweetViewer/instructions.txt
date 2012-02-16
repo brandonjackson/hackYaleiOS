@@ -1,0 +1,27 @@
+Make a new project - Single View
+Name - hackTweetViewer
+Add UITableView to storyboard --> wire outlets together
+Make hackTweetViewController implement UITableViewDataSource, Delegate
+//Change to subclass UITableViewController - comes with tableview and delegate, etc
+Write [empty] methods in implementation
+
+Give controller an NSMutableArrayInstanceVariable
+add method getTweets: (pull from data source)
+
+Make Tweet Class
+New >> File >> Objective-C class; subclass of NSObject
+Add properties
+Synthesize
+Init, Dealloc
+
+Add UITableView datasource methods to hackTweetViewer
+    cellForRowAtIndexPath:
+    heightForCellAtPath:  -- show normal height doesn't work
+Examples of delegate methods
+    didSelectCellAtIndexPath:  -- pop up an alert - "added to favorites"
+    //doesn't actually do that, but example of functionality
+//cancommiteditingstyle
+
+
+//swipe to delete
+//changing fonts

@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0319BB314C0747900BD4E35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0319BB214C0747900BD4E35 /* UIKit.framework */; };
+		C0319BB514C0747900BD4E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0319BB414C0747900BD4E35 /* Foundation.framework */; };
+		C0319BB714C0747900BD4E35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0319BB614C0747900BD4E35 /* CoreGraphics.framework */; };
+		C0319BBD14C0747A00BD4E35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0319BBB14C0747A00BD4E35 /* InfoPlist.strings */; };
+		C0319BBF14C0747A00BD4E35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0319BBE14C0747A00BD4E35 /* main.m */; };
+		C0319BC314C0747A00BD4E35 /* HackTweetViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0319BC214C0747A00BD4E35 /* HackTweetViewerAppDelegate.m */; };
+		C0319BC614C0747A00BD4E35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0319BC414C0747A00BD4E35 /* MainStoryboard.storyboard */; };
+		C0319BC914C0747A00BD4E35 /* HackTweetViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0319BC814C0747A00BD4E35 /* HackTweetViewerViewController.m */; };
+		C0319BD114C074BC00BD4E35 /* HackTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = C0319BD014C074BC00BD4E35 /* HackTweet.m */; };
+		C0319BDB14C0786000BD4E35 /* instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0319BDA14C0786000BD4E35 /* instructions.txt */; };
+		C0319BDE14C0798100BD4E35 /* HackYaleBarLogo-02.png in Resources */ = {isa = PBXBuildFile; fileRef = C0319BDD14C0798100BD4E35 /* HackYaleBarLogo-02.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0319BAE14C0747900BD4E35 /* HackTweetViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTweetViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0319BB214C0747900BD4E35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0319BB414C0747900BD4E35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0319BB614C0747900BD4E35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0319BBA14C0747A00BD4E35 /* HackTweetViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackTweetViewer-Info.plist"; sourceTree = "<group>"; };
+		C0319BBC14C0747A00BD4E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0319BBE14C0747A00BD4E35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0319BC014C0747A00BD4E35 /* HackTweetViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackTweetViewer-Prefix.pch"; sourceTree = "<group>"; };
+		C0319BC114C0747A00BD4E35 /* HackTweetViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackTweetViewerAppDelegate.h; sourceTree = "<group>"; };
+		C0319BC214C0747A00BD4E35 /* HackTweetViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackTweetViewerAppDelegate.m; sourceTree = "<group>"; };
+		C0319BC514C0747A00BD4E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C0319BC714C0747A00BD4E35 /* HackTweetViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackTweetViewerViewController.h; sourceTree = "<group>"; };
+		C0319BC814C0747A00BD4E35 /* HackTweetViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackTweetViewerViewController.m; sourceTree = "<group>"; };
+		C0319BCF14C074BC00BD4E35 /* HackTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackTweet.h; sourceTree = "<group>"; };
+		C0319BD014C074BC00BD4E35 /* HackTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackTweet.m; sourceTree = "<group>"; };
+		C0319BDA14C0786000BD4E35 /* instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = instructions.txt; sourceTree = "<group>"; };
+		C0319BDD14C0798100BD4E35 /* HackYaleBarLogo-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HackYaleBarLogo-02.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0319BAB14C0747900BD4E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0319BB314C0747900BD4E35 /* UIKit.framework in Frameworks */,
+				C0319BB514C0747900BD4E35 /* Foundation.framework in Frameworks */,
+				C0319BB714C0747900BD4E35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0319BA314C0747900BD4E35 = {
+			isa = PBXGroup;
+			children = (
+				C0319BB814C0747900BD4E35 /* HackTweetViewer */,
+				C0319BB114C0747900BD4E35 /* Frameworks */,
+				C0319BAF14C0747900BD4E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0319BAF14C0747900BD4E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0319BAE14C0747900BD4E35 /* HackTweetViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0319BB114C0747900BD4E35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0319BB214C0747900BD4E35 /* UIKit.framework */,
+				C0319BB414C0747900BD4E35 /* Foundation.framework */,
+				C0319BB614C0747900BD4E35 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0319BB814C0747900BD4E35 /* HackTweetViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C0319BC114C0747A00BD4E35 /* HackTweetViewerAppDelegate.h */,
+				C0319BC214C0747A00BD4E35 /* HackTweetViewerAppDelegate.m */,
+				C0319BC414C0747A00BD4E35 /* MainStoryboard.storyboard */,
+				C0319BDA14C0786000BD4E35 /* instructions.txt */,
+				C0319BC714C0747A00BD4E35 /* HackTweetViewerViewController.h */,
+				C0319BC814C0747A00BD4E35 /* HackTweetViewerViewController.m */,
+				C0319BCF14C074BC00BD4E35 /* HackTweet.h */,
+				C0319BD014C074BC00BD4E35 /* HackTweet.m */,
+				C0319BDD14C0798100BD4E35 /* HackYaleBarLogo-02.png */,
+				C0319BB914C0747A00BD4E35 /* Supporting Files */,
+			);
+			path = HackTweetViewer;
+			sourceTree = "<group>";
+		};
+		C0319BB914C0747A00BD4E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0319BBA14C0747A00BD4E35 /* HackTweetViewer-Info.plist */,
+				C0319BBB14C0747A00BD4E35 /* InfoPlist.strings */,
+				C0319BBE14C0747A00BD4E35 /* main.m */,
+				C0319BC014C0747A00BD4E35 /* HackTweetViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0319BAD14C0747900BD4E35 /* HackTweetViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0319BCC14C0747A00BD4E35 /* Build configuration list for PBXNativeTarget "HackTweetViewer" */;
+			buildPhases = (
+				C0319BAA14C0747900BD4E35 /* Sources */,
+				C0319BAB14C0747900BD4E35 /* Frameworks */,
+				C0319BAC14C0747900BD4E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackTweetViewer;
+			productName = HackTweetViewer;
+			productReference = C0319BAE14C0747900BD4E35 /* HackTweetViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0319BA514C0747900BD4E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Yale University";
+			};
+			buildConfigurationList = C0319BA814C0747900BD4E35 /* Build configuration list for PBXProject "HackTweetViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0319BA314C0747900BD4E35;
+			productRefGroup = C0319BAF14C0747900BD4E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0319BAD14C0747900BD4E35 /* HackTweetViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0319BAC14C0747900BD4E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0319BBD14C0747A00BD4E35 /* InfoPlist.strings in Resources */,
+				C0319BC614C0747A00BD4E35 /* MainStoryboard.storyboard in Resources */,
+				C0319BDB14C0786000BD4E35 /* instructions.txt in Resources */,
+				C0319BDE14C0798100BD4E35 /* HackYaleBarLogo-02.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0319BAA14C0747900BD4E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0319BBF14C0747A00BD4E35 /* main.m in Sources */,
+				C0319BC314C0747A00BD4E35 /* HackTweetViewerAppDelegate.m in Sources */,
+				C0319BC914C0747A00BD4E35 /* HackTweetViewerViewController.m in Sources */,
+				C0319BD114C074BC00BD4E35 /* HackTweet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0319BBB14C0747A00BD4E35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0319BBC14C0747A00BD4E35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0319BC414C0747A00BD4E35 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0319BC514C0747A00BD4E35 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0319BCA14C0747A00BD4E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0319BCB14C0747A00BD4E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0319BCD14C0747A00BD4E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackTweetViewer/HackTweetViewer-Prefix.pch";
+				INFOPLIST_FILE = "HackTweetViewer/HackTweetViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0319BCE14C0747A00BD4E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackTweetViewer/HackTweetViewer-Prefix.pch";
+				INFOPLIST_FILE = "HackTweetViewer/HackTweetViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0319BA814C0747900BD4E35 /* Build configuration list for PBXProject "HackTweetViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0319BCA14C0747A00BD4E35 /* Debug */,
+				C0319BCB14C0747A00BD4E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0319BCC14C0747A00BD4E35 /* Build configuration list for PBXNativeTarget "HackTweetViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0319BCD14C0747A00BD4E35 /* Debug */,
+				C0319BCE14C0747A00BD4E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0319BA514C0747900BD4E35 /* Project object */;
+}
